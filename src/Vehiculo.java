@@ -1,3 +1,4 @@
+
 public class Vehiculo {
 
     protected String marca;
@@ -6,11 +7,9 @@ public class Vehiculo {
     protected boolean importado;
 
     public Vehiculo() {
-        marca = "Sin marca";
-        anioFabricacion = 2024;
-        precioBase = 0.0;
+
     }
-}
+
 
         public Vehiculo(String marca, int anioFabricacion) {
             this.marca = marca;
@@ -60,7 +59,7 @@ public class Vehiculo {
     }
 
 
-
+}
 
 
 }
