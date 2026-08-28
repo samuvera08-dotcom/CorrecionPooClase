@@ -29,7 +29,7 @@ public class Vehiculo {
             this.marca = marca;
             this.anioFabricacion = anioFabricacion;
             this.importado = importado;
-            this.precioBase = precioBase * (importado = true ? 1.19 : 1.0);
+            this.precioBase = precioBase * (importado ? 1.19 : 1.0);
         }
 
         public String getMarca() {
